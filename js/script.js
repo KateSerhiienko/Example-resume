@@ -3,8 +3,6 @@ const next = document.querySelector(".next");
 const projects = document.querySelectorAll(".gallery-img-item");
 let i = 0;
 
-console.log(projects[i].classList)
-
 prev.onclick = function() {
     projects[i].classList.remove("showed");
     i--;
